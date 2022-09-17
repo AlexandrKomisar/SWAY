@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto 0;
+    width: 1242px;
+}
+
+.header{
+    background-image: url(../img/Rectangle\ 96.png);
+    height: 1085px;
+    color: #ffffff;
+    &__logo{
+        font-size: 22px;
+    }
+    &__nav{
+        font-size: 16px;
+    }
+}
