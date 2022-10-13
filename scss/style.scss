@@ -1,43 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    margin: 0 auto;
-    width: 1285px;
+.container {
+  margin: 0 auto;
+  width: 1255px;
 }
 
-.header{
-    background-image: url(../img/Rectangle\ 96.png);
-    height: 1085px;
-    color: #ffffff;
-    &__nav{
-        padding: 40px 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 16px;
-        &_btn{
-            background: #00d664;
-            border-radius: 25px;
-            border: none;
-            width: 155px;
-            height: 50px;
-        }
+.header {
+  background-image: url(../img/Rectangle\ 96.png);
+  height: 1085px;
+  color: #ffffff;
+  &__nav {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    &_btn {
+      background: #00d664;
+      border-radius: 25px;
+      border: none;
+      width: 155px;
+      height: 50px;
     }
-    &__intro{
-        margin-top: 315px;
-        text-align: center;
-        width: 795px;
-        height: 395px;
-        &_btn{
-            background: #00d664;
-            border-radius: 25px;
-            border: none;
-            width: 215px;
-            height: 50px;
-        }
+  }
+  &__intro {
+    margin-top: 315px;
+    text-align: center;
+    width: 795px;
+    height: 395px;
+    &_btn {
+      background: #00d664;
+      border-radius: 25px;
+      border: none;
+      width: 215px;
+      height: 50px;
     }
-    
+  }
 }
