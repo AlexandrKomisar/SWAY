@@ -7,7 +7,7 @@
 
 .container {
   margin: 0 auto;
-  width: 1285px;
+  width: 1255px;
 }
 
 .header {
@@ -47,4 +47,28 @@
   border: none;
   width: 215px;
   height: 50px;
+}
+
+.about {
+  margin-top: 186px;
+  text-align: center;
+}
+.about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.about__content_left {
+  width: 50%;
+}
+.about__content_left_title {
+  font-size: 16px;
+}
+.about__content_right {
+  width: 50%;
+  padding: 46px;
 }
