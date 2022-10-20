@@ -9,7 +9,7 @@
 }
 
 .header {
-  background-image: url(../img/Rectangle\ 96.png);
+  background-image: url(../img/Rectangle_96.png);
   height: 1085px;
   color: #ffffff;
   &__nav {
@@ -182,5 +182,25 @@
   }
   &__bottom {
     height: 105px;
+  }
+}
+
+.menu {
+  height: 850px;
+  background-image: url(../img/Rectangle_98.png);
+  padding-top: 120px;
+  &__title {
+    padding: 0 200px;
+    font-family: "Neue Haas Unica";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__content {
+    background: #ffffff;
+    height: 450px;
+    border-radius: 10px;
   }
 }
