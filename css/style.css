@@ -53,6 +53,26 @@
   margin-top: 186px;
   text-align: center;
 }
+.about h3 {
+  font-size: 58px;
+  line-height: 27px;
+  color: #acacac;
+  font-family: "Mrs Saint Delafield";
+}
+.about__title {
+  margin-top: 24px;
+  font-size: 58px;
+  line-height: 27px;
+  font-weight: 400px;
+}
+.about__text {
+  margin-top: 27px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "Neue Haas Unica";
+  padding: 0 200px 0 200px;
+}
 .about__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,6 +87,37 @@
 }
 .about__content_left_title {
   font-size: 16px;
+  color: #1e266d;
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 164px;
+}
+.about__content_left_list {
+  list-style: none;
+  margin-top: 45px;
+}
+.about__content_left_list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about__content_left_list_item div {
+  padding-left: 34px;
+  text-align: left;
+}
+.about__content_left_list_item img {
+  width: 40px;
+  height: 40px;
+}
+.about__content_left_list_item h5 {
+  font-size: 20px;
+  line-height: 44px;
+}
+.about__content_left_list_item p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 400px;
 }
 .about__content_right {
   width: 50%;
