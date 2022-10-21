@@ -236,30 +236,84 @@
         padding: 5px;
         list-style: none;
         &_item {
-          border: #00d664 solid 3px;
           width: 500px;
           height: 65px;
           display: flex;
+          padding: 10px;
           &_wrap {
-            padding-right: 15px;
-          }
-          h5 {
-            font-family: "Neue Haas Unica";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 22px;
-            line-height: 24px;
-            color: #1e266d;
-          }
-          p {
-            font-family: "Roboto";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            color: #696969;
+            h5 {
+              padding-left: 10px;
+              font-family: "Neue Haas Unica";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 22px;
+              line-height: 24px;
+              color: #1e266d;
+            }
+            p {
+              padding-left: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #696969;
+            }
           }
         }
+      }
+    }
+  }
+}
+.wrap {
+  background-color: #f5f6fe;
+  &-process {
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    &__left {
+      padding: 100px 0 0 0;
+      width: 600px;
+      position: relative;
+      &_dots {
+        position: absolute;
+        left: 402px;
+        top: 410px;
+      }
+    }
+    &__right {
+      padding: 180px 10px 0 100px;
+      width: 600px;
+      &_title {
+        font-family: "Neue Haas Unica";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 44px;
+        color: #1e266d;
+      }
+      &_text {
+        margin-top: 40px;
+        font-family: "Neue Haas Unica";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #7c7c7c;
+      }
+      &_btn {
+        margin-top: 45px;
+        width: 177px;
+        height: 55px;
+        background: #00d664;
+        border-radius: 30px;
+        border: none;
+        color: #ffffff;
+        font-family: "Neue Haas Unica";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
       }
     }
   }
