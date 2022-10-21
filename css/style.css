@@ -221,7 +221,77 @@
   color: #ffffff;
 }
 .menu__content {
+  margin-top: 50px;
   background: #ffffff;
   height: 450px;
   border-radius: 10px;
+}
+.menu__content_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+.menu__content_btns button {
+  border: none;
+  width: 135px;
+  height: 80px;
+  font-family: "Neue Haas Unica";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1e266d;
+  margin: 0 40px;
+  background-color: #ffffff;
+  outline: none;
+}
+.menu__content_btns button:hover {
+  border-bottom: solid 3px #00d664;
+}
+.menu__content hr {
+  margin: 0 10px;
+}
+.menu__content_fud {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 75px;
+}
+.menu__content_fud_list {
+  padding: 5px;
+  list-style: none;
+}
+.menu__content_fud_list_item {
+  border: #00d664 solid 3px;
+  width: 500px;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu__content_fud_list_item_wrap {
+  padding-right: 15px;
+}
+.menu__content_fud_list_item h5 {
+  font-family: "Neue Haas Unica";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  color: #1e266d;
+}
+.menu__content_fud_list_item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696969;
 }
