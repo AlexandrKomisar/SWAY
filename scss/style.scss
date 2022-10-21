@@ -265,6 +265,7 @@
     }
   }
 }
+
 .wrap {
   background-color: #f5f6fe;
   &-process {
@@ -282,7 +283,7 @@
       }
     }
     &__right {
-      padding: 180px 10px 0 100px;
+      padding: 180px 50px 0 100px;
       width: 600px;
       &_title {
         font-family: "Neue Haas Unica";
@@ -314,6 +315,42 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 27px;
+      }
+    }
+  }
+}
+
+.product {
+  &__title {
+    padding: 0 300px;
+    margin-top: 130px;
+    text-align: center;
+    font-family: "Neue Haas Unica";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 44px;
+    color: #1e266d;
+  }
+  &__content {
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &_card {
+      width: 290px;
+      height: 350px;
+      margin-left: 20px;
+      &_img {
+        border-radius: 10px;
+      }
+      &_text {
+        padding: 0 5px;
+      }
+      &_star {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
       }
     }
   }

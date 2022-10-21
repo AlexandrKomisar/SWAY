@@ -318,7 +318,7 @@
   top: 410px;
 }
 .wrap-process__right {
-  padding: 180px 10px 0 100px;
+  padding: 180px 50px 0 100px;
   width: 600px;
 }
 .wrap-process__right_title {
@@ -351,4 +351,47 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+}
+
+.product__title {
+  padding: 0 300px;
+  margin-top: 130px;
+  text-align: center;
+  font-family: "Neue Haas Unica";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 44px;
+  color: #1e266d;
+}
+.product__content {
+  margin-top: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.product__content_card {
+  width: 290px;
+  height: 350px;
+  margin-left: 20px;
+}
+.product__content_card_img {
+  border-radius: 10px;
+}
+.product__content_card_text {
+  padding: 0 5px;
+}
+.product__content_card_star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5px;
 }
