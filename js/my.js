@@ -1,2 +1,9 @@
-let arr = [1, 2, 3, 4, 5, 6, 9];
-let price = 26;
+const card = document.querySelectorAll(".review__slider_card");
+const slider = document.querySelector(".review__slider");
+let count = 0;
+let width;
+
+function init() {
+  console.log("resize");
+  width = document.querySelector("");
+}
