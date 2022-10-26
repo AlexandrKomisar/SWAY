@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
@@ -15,19 +14,15 @@
   height: 1085px;
   color: #ffffff;
 }
+
 .header__nav {
   padding: 40px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   font-size: 16px;
 }
+
 .header__nav_btn {
   background: #00d664;
   border-radius: 25px;
@@ -35,12 +30,14 @@
   width: 155px;
   height: 50px;
 }
+
 .header__intro {
   margin-top: 315px;
   text-align: center;
   width: 795px;
   height: 395px;
 }
+
 .header__intro_btn {
   background: #00d664;
   border-radius: 25px;
@@ -53,18 +50,21 @@
   margin-top: 186px;
   text-align: center;
 }
+
 .about h3 {
   font-size: 58px;
   line-height: 27px;
   color: #acacac;
   font-family: "Mrs Saint Delafield";
 }
+
 .about__title {
   margin-top: 24px;
   font-size: 58px;
   line-height: 27px;
   font-weight: 400px;
 }
+
 .about__text {
   margin-top: 27px;
   font-size: 18px;
@@ -73,18 +73,16 @@
   font-family: "Neue Haas Unica";
   padding: 0 200px 0 200px;
 }
+
 .about__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
+
 .about__content_left {
   width: 50%;
 }
+
 .about__content_left_title {
   font-size: 16px;
   color: #1e266d;
@@ -92,33 +90,38 @@
   font-weight: 500;
   padding-top: 164px;
 }
+
 .about__content_left_list {
   list-style: none;
   margin-top: 45px;
 }
+
 .about__content_left_list_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
+
 .about__content_left_list_item div {
   padding-left: 34px;
   text-align: left;
 }
+
 .about__content_left_list_item img {
   width: 40px;
   height: 40px;
 }
+
 .about__content_left_list_item h5 {
   font-size: 20px;
   line-height: 44px;
 }
+
 .about__content_left_list_item p {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   width: 400px;
 }
+
 .about__content_right {
   width: 50%;
   padding: 46px;
@@ -132,6 +135,7 @@
 .services {
   text-align: center;
 }
+
 .services__title {
   font-family: "Neue Haas Unica";
   font-style: normal;
@@ -140,25 +144,23 @@
   line-height: 58px;
   color: #1e266d;
 }
+
 .services__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 70px;
 }
+
 .services__content_square {
   width: 290px;
   height: 290px;
   background: #ffffff;
-  -webkit-box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   text-align: center;
   padding: 38px;
 }
+
 .services__content_square h4 {
   color: #1e266d;
   font-family: "Neue Haas Unica";
@@ -167,6 +169,7 @@
   font-size: 20px;
   line-height: 44px;
 }
+
 .services__content_square p {
   font-family: "Neue Haas Unica";
   font-style: normal;
@@ -176,6 +179,7 @@
   color: #696969;
   padding: 25px 0;
 }
+
 .services__content_square a {
   font-family: "Neue Haas Unica";
   font-style: normal;
@@ -185,10 +189,12 @@
   color: #00d664;
   text-decoration: none;
 }
+
 .services__content_square a:hover {
   text-decoration: none;
   color: #d60000;
 }
+
 .services__btn {
   margin-top: 75px;
   border: none;
@@ -202,6 +208,7 @@
   font-size: 18px;
   color: #ffffff;
 }
+
 .services__bottom {
   height: 105px;
 }
@@ -211,6 +218,7 @@
   background-image: url(../img/Rectangle_98.png);
   padding-top: 120px;
 }
+
 .menu__title {
   padding: 0 200px;
   font-family: "Neue Haas Unica";
@@ -220,21 +228,20 @@
   text-align: center;
   color: #ffffff;
 }
+
 .menu__content {
   margin-top: 50px;
   background: #ffffff;
   height: 450px;
   border-radius: 10px;
 }
+
 .menu__content_btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 5px;
 }
+
 .menu__content_btns button {
   border: none;
   width: 135px;
@@ -249,33 +256,33 @@
   background-color: #ffffff;
   outline: none;
 }
+
 .menu__content_btns button:hover {
   border-bottom: solid 3px #00d664;
 }
+
 .menu__content hr {
   margin: 0 10px;
 }
+
 .menu__content_fud {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 75px;
 }
+
 .menu__content_fud_list {
   padding: 5px;
   list-style: none;
 }
+
 .menu__content_fud_list_item {
   width: 500px;
   height: 65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 10px;
 }
+
 .menu__content_fud_list_item_wrap h5 {
   padding-left: 10px;
   font-family: "Neue Haas Unica";
@@ -285,6 +292,7 @@
   line-height: 24px;
   color: #1e266d;
 }
+
 .menu__content_fud_list_item_wrap p {
   padding-left: 10px;
   font-family: "Roboto";
@@ -298,29 +306,30 @@
 .wrap {
   background-color: #f5f6fe;
 }
+
 .wrap-process {
   height: 620px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
+
 .wrap-process__left {
   padding: 100px 0 0 0;
   width: 600px;
   position: relative;
 }
+
 .wrap-process__left_dots {
   position: absolute;
   left: 402px;
   top: 410px;
 }
+
 .wrap-process__right {
   padding: 180px 50px 0 100px;
   width: 600px;
 }
+
 .wrap-process__right_title {
   font-family: "Neue Haas Unica";
   font-style: normal;
@@ -329,6 +338,7 @@
   line-height: 44px;
   color: #1e266d;
 }
+
 .wrap-process__right_text {
   margin-top: 40px;
   font-family: "Neue Haas Unica";
@@ -338,6 +348,7 @@
   line-height: 27px;
   color: #7c7c7c;
 }
+
 .wrap-process__right_btn {
   margin-top: 45px;
   width: 177px;
@@ -356,6 +367,7 @@
 .product {
   text-align: center;
 }
+
 .product__title {
   padding: 0 300px;
   margin-top: 130px;
@@ -367,37 +379,34 @@
   line-height: 44px;
   color: #1e266d;
 }
+
 .product__content {
   margin-top: 110px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .product__content_card {
   width: 290px;
   height: 350px;
   margin-left: 20px;
 }
+
 .product__content_card_img {
   border-radius: 10px;
 }
+
 .product__content_card_text {
   padding: 0 5px;
 }
+
 .product__content_card_star {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 0 5px;
 }
+
 .product__btn {
   font-family: "Neue Haas Unica";
   font-style: normal;
@@ -414,30 +423,52 @@
 }
 
 .review__slider {
+  border: solid 3px #d60000;
+  overflow: hidden;
   margin-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  width: 1140px;
 }
+
 .review__slider_card {
   width: 380px;
-  height: 340px;
   border: solid 3px #696969;
+  height: 340px;
+  margin: 0 5px;
 }
+
 .review__dot {
   margin-top: 15px;
   cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #00d664;
+  background-color: #717171;
   border-radius: 50%;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
 .active,
-.redot:hover {
-  background-color: #717171;
+.review__dot:hover {
+  background-color: #00d664;
 }
+
+.slider {
+  border: 2px solid #1e266d;
+  max-width: 80%;
+  overflow: hidden;
+  padding: 5px;
+  margin: 20px auto;
+}
+
+.slider-line {
+  display: flex;
+  background: #9f9292;
+}
+
+.flex {
+  display: flex;
+  width: 360px;
+}
+/*# sourceMappingURL=style.css.map */
