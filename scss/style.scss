@@ -18,6 +18,13 @@
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
+    &_logo {
+      font-family: "Neue Haas Unica";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 22px;
+      line-height: 17px;
+    }
     &_btn {
       background: #00d664;
       border-radius: 25px;
@@ -29,9 +36,29 @@
   &__intro {
     margin-top: 315px;
     text-align: center;
-    width: 795px;
     height: 395px;
+    padding: 0 250px;
+    & h4 {
+      font-family: "Mrs Saint Delafield";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      color: #ffffff;
+    }
+
+    &_title {
+      font-family: "Neue Haas Unica";
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 70px;
+      text-align: center;
+      color: #ffffff;
+    }
+    & p {
+      margin-top: 20px;
+    }
     &_btn {
+      margin-top: 50px;
       background: #00d664;
       border-radius: 25px;
       border: none;
@@ -371,38 +398,6 @@
   }
 }
 
-.review {
-  text-align: center;
-  &__slider {
-    border: solid 3px #d60000;
-    overflow: hidden;
-    margin-top: 100px;
-    display: flex;
-    width: 1140px;
-    &_card {
-      width: 380px;
-      border: solid 3px #696969;
-      height: 340px;
-      margin: 0 5px;
-    }
-  }
-  &__dot {
-    margin-top: 15px;
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #717171;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-}
-.active,
-.review__dot:hover {
-  background-color: #00d664;
-}
-
 .subscribe {
   margin-top: 100px;
   margin-bottom: 120px;
@@ -449,11 +444,6 @@
       color: #ffffff;
     }
   }
-}
-
-.map {
-  background: #39374d;
-  height: 720px;
 }
 
 .footer {
